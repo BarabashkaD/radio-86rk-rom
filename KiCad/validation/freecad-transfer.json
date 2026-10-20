@@ -1,49 +1,105 @@
 {
-  "document": "Radio86Modernized",
+  "document": "Radio86Socketed",
   "file": "../exports/radio-86rk-rom.FCStd",
-  "leaf_object_count": 6,
+  "leaf_object_count": 7,
   "objects": [
     {
-      "name": "Part__Feature",
       "label": "PinHeader_1x03_P254mm_Vertical",
       "valid": true,
       "solids": 1,
-      "volume_mm3": 59.07332816000024
+      "volume_mm3": 59.07332816000011,
+      "bbox": [
+        115.57,
+        -105.09250000000002,
+        -1.40500000000022,
+        118.11000000000001,
+        -97.4725,
+        10.13500000000022
+      ]
     },
     {
-      "name": "Part__Feature001",
+      "label": "DIP_28_W1524mm_Socket",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 753.1902802492432,
+      "bbox": [
+        123.18999999999998,
+        -107.95000000000002,
+        -2.1850000000000467,
+        158.75,
+        -90.17,
+        5.602000000000001
+      ]
+    },
+    {
       "label": "DIP-28_W15.24mm",
       "valid": true,
       "solids": 1,
-      "volume_mm3": 1559.6710270437945
+      "volume_mm3": 1559.6710270438027,
+      "bbox": [
+        123.19,
+        -106.80700000000002,
+        1.9219999999999722,
+        158.75,
+        -91.313,
+        8.902000000000001
+      ]
     },
     {
-      "name": "Part__Feature002",
       "label": "IDC_Header_2x13_P254mm_Vertical",
       "valid": true,
       "solids": 1,
-      "volume_mm3": 1602.632132325811
+      "volume_mm3": 1602.6321323258078,
+      "bbox": [
+        119.35999999999999,
+        -120.245,
+        -1.4050000000010001,
+        160.04,
+        -111.145,
+        10.695
+      ]
     },
     {
-      "name": "Part__Feature003",
       "label": "C_Rect_L7.2mm_W2.5mm_P5.00mm",
       "valid": true,
       "solids": 1,
-      "volume_mm3": 117.93305647510311
+      "volume_mm3": 117.93305647510309,
+      "bbox": [
+        118.13,
+        -97.58,
+        -2.3049999999999997,
+        120.63,
+        -90.38000000000001,
+        8.095
+      ]
     },
     {
-      "name": "Part__Feature004",
       "label": "PinHeader_1x02_P254mm_Vertical",
       "valid": true,
       "solids": 1,
-      "volume_mm3": 39.382218773333506
+      "volume_mm3": 39.38221877333341,
+      "bbox": [
+        118.10999999999999,
+        -105.09250000000002,
+        -1.40500000000022,
+        120.65,
+        -100.0125,
+        10.13500000000022
+      ]
     },
     {
-      "name": "Part__Feature005",
       "label": "radio-86rk-rom_PCB",
       "valid": true,
       "solids": 1,
-      "volume_mm3": 2252.4784119141655
+      "volume_mm3": 2252.4784119141655,
+      "bbox": [
+        114.299999999997,
+        -119.38,
+        0.0,
+        165.1,
+        -88.89999999999701,
+        1.51
+      ]
     }
   ],
   "reopened_document": "radio_86rk_rom",

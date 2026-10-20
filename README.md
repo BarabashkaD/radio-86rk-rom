@@ -25,7 +25,7 @@ The ROM monitor also provides a subroutine to copy ROM cartridge content to the 
 
 ### Schematic and PCB Layout
 
-Open [the current KiCad project](KiCad/radio-86rk-rom.kicad_pro) with KiCad 10.0.7 or a compatible newer version. Symbols, footprints and five component models are included in the project folder. See [migration and validation notes](KiCad/MIGRATION.md) for the remaining electrical and board-rule findings and the limits of the generic 3D models.
+Open [the current KiCad project](KiCad/radio-86rk-rom.kicad_pro) with KiCad 10.0.7 or a compatible newer version. Symbols, footprints and six component models are included in the project folder. See [migration and validation notes](KiCad/MIGRATION.md) for the remaining electrical and board-rule findings and the limits of the generic 3D models.
 
 The populated assembly is available as [STEP](KiCad/exports/radio-86rk-rom.step), [FreeCAD](KiCad/exports/radio-86rk-rom.FCStd) and a [3D preview](KiCad/exports/radio-86rk-rom-3d.png).
 

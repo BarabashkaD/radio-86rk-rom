@@ -14,7 +14,7 @@
   "placed_symbol_count": 16,
   "all_footprints_local_and_found": true,
   "placed_footprint_count": 9,
-  "model_count": 5,
+  "model_count": 6,
   "models": [
     {
       "reference": "JP1",
@@ -50,7 +50,7 @@
     },
     {
       "reference": "U1",
-      "path": "${KIPRJMOD}/radio-86rk-rom.3dshapes/DIP-28_W15.24mm.step",
+      "path": "${KIPRJMOD}/radio-86rk-rom.3dshapes/DIP-28_W15.24mm_Socket.step",
       "exists": true,
       "offset": [
         "offset",
@@ -65,8 +65,40 @@
         "rotate",
         [
           "xyz",
-          "-0",
-          "-0",
+          "0",
+          "0",
+          "-90"
+        ]
+      ],
+      "scale": [
+        "scale",
+        [
+          "xyz",
+          "1",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    {
+      "reference": "U1",
+      "path": "${KIPRJMOD}/radio-86rk-rom.3dshapes/DIP-28_W15.24mm.step",
+      "exists": true,
+      "offset": [
+        "offset",
+        [
+          "xyz",
+          "-16.51",
+          "-7.62",
+          "3.627"
+        ]
+      ],
+      "rotate": [
+        "rotate",
+        [
+          "xyz",
+          "0",
+          "0",
           "-90"
         ]
       ],

@@ -340,8 +340,13 @@
 	)
 	(embedded_fonts no)
 
-	(model "${KIPRJMOD}/radio-86rk-rom.3dshapes/DIP-28_W15.24mm.step"
+	(model "${KIPRJMOD}/radio-86rk-rom.3dshapes/DIP-28_W15.24mm_Socket.step"
 		(offset (xyz -16.51 -7.62 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 -90))
+	)
+	(model "${KIPRJMOD}/radio-86rk-rom.3dshapes/DIP-28_W15.24mm.step"
+		(offset (xyz -16.51 -7.62 3.627))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 -90))
 	)

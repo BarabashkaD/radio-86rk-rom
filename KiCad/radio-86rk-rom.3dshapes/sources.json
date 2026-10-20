@@ -28,5 +28,11 @@
     "bundled_file": "C_Rect_L7.2mm_W2.5mm_P5.00mm.step",
     "sha256": "c4af29abcd088633227c1d9f8b3c4e8163fe3f82f5cf1b224a2702dbc4dbed14",
     "source_library_path": "Capacitor_THT.3dshapes/C_Rect_L7.2mm_W2.5mm_P5.00mm.step"
+  },
+  {
+    "reference": "U1 socket",
+    "bundled_file": "DIP-28_W15.24mm_Socket.step",
+    "sha256": "9cf425a460c693596ec31e4a702812e3f036598a38c4b931333f100b3399373f",
+    "source_library_path": "Package_DIP.3dshapes/DIP-28_W15.24mm_Socket.step"
   }
 ]

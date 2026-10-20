@@ -806,7 +806,7 @@
 			(uuid "51aa9796-89bf-4185-9f02-45e2a50664c7")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/radio-86rk-rom.3dshapes/DIP-28_W15.24mm.step"
+		(model "${KIPRJMOD}/radio-86rk-rom.3dshapes/DIP-28_W15.24mm_Socket.step"
 			(offset
 				(xyz -16.51 -7.62 0)
 			)
@@ -814,7 +814,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -90)
+				(xyz 0 0 -90)
+			)
+		)
+		(model "${KIPRJMOD}/radio-86rk-rom.3dshapes/DIP-28_W15.24mm.step"
+			(offset
+				(xyz -16.51 -7.62 3.627)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
 			)
 		)
 	)

@@ -6,7 +6,7 @@ Validated on 2026-10-20 using KiCad 10.0.7 and FreeCAD 1.1.4.
 
 Open `radio-86rk-rom.kicad_pro`. The active schematic is `radio-86rk-rom.kicad_sch`; the PCB is `radio-86rk-rom.kicad_pcb`. The legacy `.pro`, `.sch`, `.net` and cache files remain for reference. Historical PDFs and fabrication outputs have not been regenerated.
 
-The original cached symbols were converted with KiCad's native tools. All 16 placed symbols resolve to the nine definitions in `radio-86rk-rom-symbols.kicad_sym`. All nine placed footprints resolve to eight files in `radio-86rk-rom-footprints.pretty`. The five component model paths resolve to `radio-86rk-rom.3dshapes`. Both library tables use `${KIPRJMOD}`; no external custom library is needed for these references.
+The original cached symbols were converted with KiCad's native tools. All 16 placed symbols resolve to the nine definitions in `radio-86rk-rom-symbols.kicad_sym`. All nine placed footprints resolve to eight files in `radio-86rk-rom-footprints.pretty`. The six component model paths resolve to `radio-86rk-rom.3dshapes`. Both library tables use `${KIPRJMOD}`; no external custom library is needed for these references.
 
 The symbol geometry comes from the original cache and the footprints from the original PCB. Footprint assignments were backannotated to the schematic. Component values were preserved, and the missing power-symbol reference was annotated with KiCad's native tools.
 
@@ -14,10 +14,10 @@ The symbol geometry comes from the original cache and the footprints from the or
 
 - The modern schematic has exactly the same 28 groups of connected component pins as the original published `.net` file.
 - Footprint positions, 63 pads and their net assignments, 183 track segments, three vias, board outline and zone outlines/net assignments match the first native-converted PCB baseline.
-- All local symbol, footprint and five model references resolve.
+- All local symbol, footprint and six model references resolve.
 - A minimal copy containing only the active project and its local dependencies successfully exported a populated STEP assembly from a different folder.
-- The native KiCad 3D render shows U1, J1, JP1, JP2 and C1 aligned to the board.
-- FreeCAD imported the STEP as six valid solids: the board and five component bodies. The saved `.FCStd` was closed, reopened and checked successfully.
+- The native KiCad 3D render shows U1, its DIP-28 socket, J1, JP1, JP2 and C1 aligned to the board.
+- FreeCAD imported the STEP as seven valid solids: the board and six component bodies, including the U1 socket. The saved `.FCStd` was closed, reopened and checked successfully.
 
 Current outputs are in `exports/`: `radio-86rk-rom.step`, `radio-86rk-rom.FCStd` and `radio-86rk-rom-3d.png`. They represent the current migrated project. Older exports outside that folder were retained.
 
@@ -55,7 +55,7 @@ The remaining 24 schematic warnings are `net_not_bus_member` findings associated
 
 ## Model limitations
 
-The five component models are generic KiCad packages, not manufacturer-verified assemblies. In particular, the U1 socket, jumper caps and mating cable are absent. See `radio-86rk-rom.3dshapes/README.md` for package details, the small capacitor pitch difference and licensing. The six-solid transfer verifies file integrity, not manufacturing readiness or complete mechanical fit.
+The six component models are generic KiCad packages, not manufacturer-verified assemblies. In particular, jumper caps and the mating cable are absent. The U1 socket is included, with the chip raised 3.627 mm above its original model position to seat it on the socket. See `radio-86rk-rom.3dshapes/README.md` for package details, the small capacitor pitch difference and licensing. The seven-solid transfer verifies file integrity, not manufacturing readiness or complete mechanical fit.
 
 ## Recovery and evidence
 

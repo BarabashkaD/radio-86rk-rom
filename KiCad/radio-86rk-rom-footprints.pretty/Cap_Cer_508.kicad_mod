@@ -1,0 +1,167 @@
+(footprint "Cap_Cer_508"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Ceramic Capacitor, 5.08mm lead spacing")
+	(tags "Cap_Cer_508")
+	(property "Reference" "REF**"
+		(at 1.905 1.905 180)
+		(layer "F.SilkS")
+		(uuid "b250e2eb-b6d7-4cc0-8f05-566d18889095")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "0.1uF"
+		(at -1.5875 1.905 180)
+		(layer "F.SilkS")
+		(uuid "719e3987-5e99-4df1-a594-8e25db9d5ee2")
+		(effects
+			(font
+				(size 1.016 0.9144)
+				(thickness 0.2032)
+				(italic yes)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34a22d36-7a64-4cc4-88a5-664fa852910c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "649ebe3c-a497-43a0-b991-9b6d6189a1c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.556 0.508)
+		(end -3.556 -0.508)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0db732ad-6e4f-40ee-9577-ed4cdd6307cb")
+	)
+	(fp_line
+		(start -3.048 -1.016)
+		(end 3.048 -1.016)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "513f3301-6ea4-4f7a-8287-22ca1999a031")
+	)
+	(fp_line
+		(start -3.048 1.016)
+		(end 3.048 1.016)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f35dcc1c-1593-4c6b-99e3-98320a67b449")
+	)
+	(fp_line
+		(start 3.556 0.508)
+		(end 3.556 -0.508)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98cb9042-89c6-4b7a-b700-1665bc04285c")
+	)
+	(fp_arc
+		(start -3.556 -0.508)
+		(mid -3.40721 -0.86721)
+		(end -3.048 -1.016)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4844f921-cd91-4ffb-a2c4-ca010a43aa37")
+	)
+	(fp_arc
+		(start -3.048 1.016)
+		(mid -3.40721 0.86721)
+		(end -3.556 0.508)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0737f9b-362c-416a-bb1f-8ceef179eea5")
+	)
+	(fp_arc
+		(start 3.048 -1.016)
+		(mid 3.40721 -0.86721)
+		(end 3.556 -0.508)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6033e3a1-472e-449a-b056-cfe11af59b01")
+	)
+	(fp_arc
+		(start 3.556 0.508)
+		(mid 3.40721 0.86721)
+		(end 3.048 1.016)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6346369-9fd9-4d4d-93e9-d93487dc0cf5")
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 1.397 1.397)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "4cd4b185-3efb-4734-8667-cfb9dcb24dde")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.397 1.397)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "d29115e1-d69f-4ddb-b31a-767b9c5171be")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/radio-86rk-rom.3dshapes/C_Rect_L7.2mm_W2.5mm_P5.00mm.step"
+		(offset
+			(xyz -2.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,51 @@
+{
+  "document": "Radio86Modernized",
+  "file": "../exports/radio-86rk-rom.FCStd",
+  "leaf_object_count": 6,
+  "objects": [
+    {
+      "name": "Part__Feature",
+      "label": "PinHeader_1x03_P254mm_Vertical",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 59.07332816000024
+    },
+    {
+      "name": "Part__Feature001",
+      "label": "DIP-28_W15.24mm",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1559.6710270437945
+    },
+    {
+      "name": "Part__Feature002",
+      "label": "IDC_Header_2x13_P254mm_Vertical",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1602.632132325811
+    },
+    {
+      "name": "Part__Feature003",
+      "label": "C_Rect_L7.2mm_W2.5mm_P5.00mm",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 117.93305647510311
+    },
+    {
+      "name": "Part__Feature004",
+      "label": "PinHeader_1x02_P254mm_Vertical",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 39.382218773333506
+    },
+    {
+      "name": "Part__Feature005",
+      "label": "radio-86rk-rom_PCB",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 2252.4784119141655
+    }
+  ],
+  "reopened_document": "radio_86rk_rom",
+  "reopened_valid": true
+}

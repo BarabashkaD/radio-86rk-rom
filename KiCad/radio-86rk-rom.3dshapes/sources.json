@@ -1,0 +1,32 @@
+[
+  {
+    "reference": "U1",
+    "bundled_file": "DIP-28_W15.24mm.step",
+    "sha256": "fe57368cd24dc3b7388d2e9f116f8cb9af7a6876fe2a481c308e0a39cbd35d78",
+    "source_library_path": "Package_DIP.3dshapes/DIP-28_W15.24mm.step"
+  },
+  {
+    "reference": "J1",
+    "bundled_file": "IDC-Header_2x13_P2.54mm_Vertical.step",
+    "sha256": "e0db5c273f8e46abd8457c6aaf0ec2f2742360931e43a3693ecad9d1a72c7564",
+    "source_library_path": "Connector_IDC.3dshapes/IDC-Header_2x13_P2.54mm_Vertical.step"
+  },
+  {
+    "reference": "JP1",
+    "bundled_file": "PinHeader_1x03_P2.54mm_Vertical.step",
+    "sha256": "b91b4ac5acf1a0d28a676703db972d17b8f11ef26a85b58d60786a69246b921b",
+    "source_library_path": "Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
+  },
+  {
+    "reference": "JP2",
+    "bundled_file": "PinHeader_1x02_P2.54mm_Vertical.step",
+    "sha256": "ea4d0799007ebdd3945072bf255d673d2fe87eb05fda85fd8d7993ad9397da41",
+    "source_library_path": "Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
+  },
+  {
+    "reference": "C1",
+    "bundled_file": "C_Rect_L7.2mm_W2.5mm_P5.00mm.step",
+    "sha256": "c4af29abcd088633227c1d9f8b3c4e8163fe3f82f5cf1b224a2702dbc4dbed14",
+    "source_library_path": "Capacitor_THT.3dshapes/C_Rect_L7.2mm_W2.5mm_P5.00mm.step"
+  }
+]

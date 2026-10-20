@@ -1,0 +1,4 @@
+# Keep CAD exchange files byte-for-byte and avoid generated geometry in text diffs.
+*.step binary
+*.FCStd binary
+*.png binary

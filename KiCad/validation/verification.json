@@ -1,0 +1,205 @@
+{
+  "source_net_count": 28,
+  "final_net_count": 28,
+  "identical_schematic_pin_connectivity": true,
+  "net_groups_missing": [],
+  "net_groups_added": [],
+  "footprint_positions_pads_nets_unchanged": true,
+  "tracks_vias_unchanged": true,
+  "outline_unchanged": true,
+  "zone_outlines_nets_unchanged": true,
+  "pad_count": 63,
+  "track_via_count": 186,
+  "all_symbols_local_and_found": true,
+  "placed_symbol_count": 16,
+  "all_footprints_local_and_found": true,
+  "placed_footprint_count": 9,
+  "model_count": 5,
+  "models": [
+    {
+      "reference": "JP1",
+      "path": "${KIPRJMOD}/radio-86rk-rom.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step",
+      "exists": true,
+      "offset": [
+        "offset",
+        [
+          "xyz",
+          "-2.54",
+          "0",
+          "0"
+        ]
+      ],
+      "rotate": [
+        "rotate",
+        [
+          "xyz",
+          "-0",
+          "-0",
+          "-90"
+        ]
+      ],
+      "scale": [
+        "scale",
+        [
+          "xyz",
+          "1",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    {
+      "reference": "U1",
+      "path": "${KIPRJMOD}/radio-86rk-rom.3dshapes/DIP-28_W15.24mm.step",
+      "exists": true,
+      "offset": [
+        "offset",
+        [
+          "xyz",
+          "-16.51",
+          "-7.62",
+          "0"
+        ]
+      ],
+      "rotate": [
+        "rotate",
+        [
+          "xyz",
+          "-0",
+          "-0",
+          "-90"
+        ]
+      ],
+      "scale": [
+        "scale",
+        [
+          "xyz",
+          "1",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    {
+      "reference": "J1",
+      "path": "${KIPRJMOD}/radio-86rk-rom.3dshapes/IDC-Header_2x13_P2.54mm_Vertical.step",
+      "exists": true,
+      "offset": [
+        "offset",
+        [
+          "xyz",
+          "-15.24",
+          "-1.27",
+          "0"
+        ]
+      ],
+      "rotate": [
+        "rotate",
+        [
+          "xyz",
+          "-0",
+          "-0",
+          "-90"
+        ]
+      ],
+      "scale": [
+        "scale",
+        [
+          "xyz",
+          "1",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    {
+      "reference": "C1",
+      "path": "${KIPRJMOD}/radio-86rk-rom.3dshapes/C_Rect_L7.2mm_W2.5mm_P5.00mm.step",
+      "exists": true,
+      "offset": [
+        "offset",
+        [
+          "xyz",
+          "-2.5",
+          "0",
+          "0"
+        ]
+      ],
+      "rotate": [
+        "rotate",
+        [
+          "xyz",
+          "-0",
+          "-0",
+          "-0"
+        ]
+      ],
+      "scale": [
+        "scale",
+        [
+          "xyz",
+          "1",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    {
+      "reference": "JP2",
+      "path": "${KIPRJMOD}/radio-86rk-rom.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step",
+      "exists": true,
+      "offset": [
+        "offset",
+        [
+          "xyz",
+          "-1.27",
+          "0",
+          "0"
+        ]
+      ],
+      "rotate": [
+        "rotate",
+        [
+          "xyz",
+          "-0",
+          "-0",
+          "-90"
+        ]
+      ],
+      "scale": [
+        "scale",
+        [
+          "xyz",
+          "1",
+          "1",
+          "1"
+        ]
+      ]
+    }
+  ],
+  "erc": {
+    "total": 25,
+    "by_type": {
+      "pin_not_driven": 1,
+      "net_not_bus_member": 24
+    },
+    "by_severity": {
+      "error": 1,
+      "warning": 24
+    }
+  },
+  "drc": {
+    "total": 96,
+    "by_type": {
+      "copper_edge_clearance": 6,
+      "silk_edge_clearance": 3,
+      "text_height": 10,
+      "silk_over_copper": 63,
+      "silk_overlap": 14
+    },
+    "by_severity": {
+      "error": 6,
+      "warning": 90
+    }
+  }
+}
